@@ -235,6 +235,7 @@ footer {
 }
 #container {
     position: relative;
+    background-color: #000033ab;
 }
 .slides {
     display: none;
@@ -261,7 +262,7 @@ footer {
 }
 #capt {
     text-align: center;
-    background-color: #222;
+    background-color: #000033ab;
     height: 50px;
     color: white;
     display: flex;
