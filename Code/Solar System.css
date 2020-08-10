@@ -23,10 +23,16 @@ header {
     font-size: 90px;
     color: white;
 }
+@media screen and (max-width: 800px) {
+    #h1 {
+        font-size: 50px;
+        padding-top: 70px;
+    }
+}
 #icon {
     width: 200px;
     height: 200px;
-    border-radius: 100%;
+    border-radius: 50%;
 }
 .body {
     min-height: 100%;
@@ -285,4 +291,24 @@ footer {
 .act,
 .demo:hover {
     opacity: 1;
+}
+/* Welcome */
+#hwc {
+    background: -webkit-linear-gradient(#ff6600,#33ccff);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 100px;
+    font-family: 'Lobster', cursive;
+    text-align: center;
+    margin: 100px 300px;
+}
+#welcome {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#welcome a {
+    text-decoration: none;
+    color: white;
 }
