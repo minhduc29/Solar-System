@@ -34,6 +34,10 @@ header {
     width: 200px;
     height: 200px;
     border-radius: 50%;
+    cursor: pointer;
+}
+#icon:hover {
+    opacity: 0.8;
 }
 .body {
     min-height: 100%;
@@ -143,15 +147,14 @@ footer {
 #main {
     width: 50%;
     color: white;
-    margin-left: 20px;
-    margin-top: 20px;
+    text-shadow: 2px 2px 10px black;
+    margin: 20px;
 }
 #info img {
     width: 30%;
     height: 30%;
     position: sticky;
     top: 0;
-    margin-left: 20px;
     padding-top: 100px;
 }
 #img {
