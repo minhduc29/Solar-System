@@ -73,11 +73,15 @@ h1 {
     right: -2px;
     bottom: -2px;
     z-index: -2;
-    filter: blur(30px);
+    filter: blur(20px);
 }
-.box::before,
-.box::after {
-    background: linear-gradient(200deg,#ff6600,#33ccff,blueviolet);
+.box:nth-child(1)::before,
+.box:nth-child(1)::after {
+    background: linear-gradient(235deg,#008aff,black,#33ccff);
+}
+.box:nth-child(2)::before,
+.box:nth-child(2)::after {
+    background: linear-gradient(235deg,#ff6600,#33ccff,blueviolet);
 }
 .content {
     position: absolute;
