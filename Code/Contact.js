@@ -1,6 +1,6 @@
 let modal = document.getElementsByClassName('modal');
 let btn = document.getElementsByClassName('btn');
-let span = document.getElementsByClassName('close')
+let span = document.getElementsByClassName('close');
 btn[0].onclick = function () {
     modal[0].style.display = "block";
 }
@@ -24,4 +24,10 @@ btn[3].onclick = function () {
 }
 span[3].onclick = function () {
     modal[3].style.display = "none";
+}
+btn[4].onclick = function () {
+    modal[4].style.display = "block";
+}
+span[4].onclick = function () {
+    modal[4].style.display = "none";
 }

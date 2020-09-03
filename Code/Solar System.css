@@ -88,7 +88,6 @@ footer {
 }
 #body img {
     width: 50%;
-    height: 500px;
     margin-top: 50px;
     margin-left: auto;
     margin-right: auto;
@@ -456,16 +455,36 @@ footer {
     transition-delay: 0.75s;
 }
 /* Contact */
-#hcontact {
+#bgcontact {
+    background-color: #000033ab;
+}
+#bgcontact h1,
+#bgcontact h2,
+#bgcontact h3 {
     text-align: center;
-    color: #EA7E1F;
+    background: -webkit-linear-gradient(#452b75,#d76d77,#ffaf7b);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
     font-family: 'Ubuntu', sans-serif;
 }
-#contact {
+.contact img {
+    width: 500px;
+}
+#xcontact {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+}
+#hcontact {
+    padding-top: 20px;
+    margin: 0;
+    font-size: 40px;
+}
+.contact {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100px;
 }
 ul {
     position: relative;
@@ -528,12 +547,20 @@ li:nth-child(3) span {
 li:nth-child(4) span {
     background: #7289da;
 }
-ul li img {
+li:nth-child(5) span {
+    background: linear-gradient(#452b75,#d76d77,#ffaf7b);
+}
+ul li img:nth-child(1) {
     width: 100%;
 }
 .modal-content {
-    background-color: #fefefe;
     margin: auto;
     padding: 20px;
     width: 80%;
+    background: linear-gradient(#452b75,#d76d77,#ffaf7b);
+}
+.modal-content a,
+.modal-content p {
+    text-decoration: none;
+    color: white;
 }

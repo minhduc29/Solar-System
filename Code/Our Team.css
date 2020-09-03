@@ -77,7 +77,7 @@ h1 {
 }
 .box:nth-child(1)::before,
 .box:nth-child(1)::after {
-    background: linear-gradient(235deg,#008aff,black,#33ccff);
+    background: linear-gradient(235deg,#ff0b00,#ffc800,#57a6a9,#006dff);
 }
 .box:nth-child(2)::before,
 .box:nth-child(2)::after {
