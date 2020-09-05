@@ -1,7 +1,5 @@
 html, body {
-  background-image: url('../Images/Background\ Milky\ Way.jpg');
-  background-attachment: fixed;
-  background-size: cover;
+  background-color: #000033;
   font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
   color: #fff;
   height: 100%;
@@ -12,12 +10,6 @@ html, body {
 }
 ::-webkit-scrollbar {
   width: 0;
-}
-#body {
-  min-height: 100%;
-  background-color: #000033ab;
-  margin: 0;
-  padding: 0;
 }
 .wrapper {
   width: 100%;
